@@ -65,6 +65,46 @@ body {
     </p>
 
     <p><center><iframe src="https://open.spotify.com/embed/playlist/2aiyTunvFN7jGoq9TkImQC?theme=0" width="280" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    
+
+    <title>MP3 Player</title>
+    <style>
+        /* Style the audio player */
+        audio {
+            display: block;
+            margin: 0 auto;
+            width: 300px;
+        }
+        
+        /* Style the song title and album art */
+        #song-info {
+            display: flex;
+            align-items: center;
+            margin: 10px auto;
+            width: 300px;
+        }
+        
+        #song-info img {
+            height: 50px;
+            margin-right: 10px;
+            width: 50px;
+        }
+        
+        #song-info h2 {
+            font-size: 18px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="song-info">
+        <img src="album-art.jpg" alt="Album Art">
+        <h2>When the Earth Shakes</h2>
+    </div>
+    <audio controls>
+        <source src="song.mp3" type="audio/mpeg">
+    
+
     </center></p>
 
 <script>
